@@ -1,0 +1,35 @@
+
+application {
+  config {
+    baseName metaAluno,        
+    packageName com.enem.metaaluno,
+    authenticationType jwt,        
+    prodDatabaseType postgresql,    
+    devDatabaseType postgresql,         
+    buildTool maven,                
+    clientFramework angular,          
+    reactive false
+  }
+  entities Meta, Aluno
+}
+
+entity Meta {
+	valor Integer required min(0) max(1000) //limite para que a meta fique dentro dos padrões do enem
+    area AreaDoEnem required // cada meta sera para uma respectiva área
+}
+
+
+enum AreaDoEnem { // enum para separar as metas do aluno por área
+	Linguagens, 
+    Humanas,
+    Ciencias,
+    Matematica
+    }
+    
+entity Aluno { 
+	nome String required 
+}
+
+relationship ManyToOne {
+	Meta{aluno(nome)} to Aluno // a meta é associada ao nome do aluo quando criada
+}
