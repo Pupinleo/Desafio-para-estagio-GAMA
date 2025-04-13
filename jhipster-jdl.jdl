@@ -15,7 +15,7 @@ application {
 
 entity Meta {
 	valor Integer required min(0) max(1000) //limite para que a meta fique dentro dos padrões do enem
-    area AreaDoEnem required // cada meta sera para uma respectiva área
+    area AreaDoEnem required // cada meta é para uma respectiva área
 }
 
 
