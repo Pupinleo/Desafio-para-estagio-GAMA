@@ -1,0 +1,11 @@
+{
+  "metaAlunoApp": {
+    "AreaDoEnem": {
+      "null": "",
+      "Linguagens": "Linguagens, códigos e suas tecnologias",
+      "Humanas": "Ciências humanas e suas tecnologias",
+      "Ciencias": "Ciências da natureza e suas tecnologias",
+      "Matematica": "Matemática e suas tecnologias"
+    }
+  }
+}

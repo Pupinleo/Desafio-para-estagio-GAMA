@@ -1,0 +1,26 @@
+{
+  "metaAlunoApp": {
+    "meta": {
+      "home": {
+        "title": "Metas ENEM",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar uma nova meta",
+        "createOrEditLabel": "Criar ou editar uma meta",
+        "notFound": "Nenhuma meta encontrada"
+      },
+      "created": "A new Meta is created with identifier {{ param }}",
+      "updated": "A Meta is updated with identifier {{ param }}",
+      "deleted": "A Meta is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Tem certeza que deseja deletar a meta {{ id }}?"
+      },
+      "detail": {
+        "title": "Meta"
+      },
+      "id": "ID",
+      "valor": "Nota",
+      "area": "Área",
+      "aluno": "Nome do aluno"
+    }
+  }
+}

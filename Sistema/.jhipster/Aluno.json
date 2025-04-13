@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "changelogDate": "20250413194211"
+  },
+  "applications": ["metaAluno"],
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "Aluno",
+  "relationships": [],
+  "searchEngine": "no"
+}

@@ -1,0 +1,24 @@
+{
+  "metaAlunoApp": {
+    "aluno": {
+      "home": {
+        "title": "Alunos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Adicionar um novo Aluno",
+        "createOrEditLabel": "Criar ou editar um Aluno",
+        "notFound": "Nenhum aluno encontrado"
+      },
+      "created": "A new Aluno is created with identifier {{ param }}",
+      "updated": "A Aluno is updated with identifier {{ param }}",
+      "deleted": "A Aluno is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Tem certeza que deseja deletar os dados do aluno {{ id }}?"
+      },
+      "detail": {
+        "title": "Aluno"
+      },
+      "id": "ID",
+      "nome": "Nome do aluno"
+    }
+  }
+}

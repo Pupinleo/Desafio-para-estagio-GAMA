@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col-md-3">
+    <span class="hipster img-fluid rounded"></span>
+  </div>
+
+  <div class="col-md-9">
+    <h1 class="display-4"><span jhiTranslate="home.title">Crie metas para os alunos</span></h1>
+
+    <p class="lead" jhiTranslate="home.subtitle">Faça <a class="alert-link" (click)="login()" jhiTranslate="global.messages.info.authenticated.link">login</a> para utilizar o Sistema</p>
+
+    <div>
+      @if (account() !== null) {
+        <div class="alert alert-success">
+          @if (account(); as accountRef) {
+            <span id="home-logged-message" jhiTranslate="home.logged.message" [translateValues]="{ username: accountRef.login }"
+              >Você está logado como: &quot;{{ accountRef.login }}&quot;. Para criar uma nova meta clique em "Adicionar meta ou aluno"</span
+            >
+          }
+        </div>
+      } @else {
+        <div class="alert alert-warning">
+          <span jhiTranslate="global.messages.info.authenticated.prefix">para fazer </span>
+          <a class="alert-link" (click)="login()" jhiTranslate="global.messages.info.authenticated.link">login</a
+          ><span jhiTranslate="global.messages.info.authenticated.suffix"
+            >, utilize a conta de Administrador:<br />- Administrador (login=&quot;admin&quot; senha=&quot;admin&quot;) <br /></span
+          >
+        </div>
+      }
+    </div>
+  </div>
+</div>
+

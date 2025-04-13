@@ -1,0 +1,18 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "baseName": "metaAluno",
+    "buildTool": "maven",
+    "clientFramework": "angular",
+    "devDatabaseType": "postgresql",
+    "entities": ["Meta", "Aluno"],
+    "jhipsterVersion": "8.10.0",
+    "jwtSecretKey": "NWZjMWFhYTRjNTBlNzQ2NTMyNTczNmMxM2Y1M2NkNzAwYzBkM2JjMmRmZDcwODg3ZWUxMGRjZWQ3NTZhOTgzNjE0NTA3N2ViYzczMTNhMTdiOTEyZmE4YzI5YWVhZTk2Y2NhYWIwOTM5NDUxMWVmZjA1NzI4YjljNDc4YmE3NWM=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1744573331000,
+    "nativeLanguage": "en",
+    "packageName": "com.enem.metaaluno",
+    "prodDatabaseType": "postgresql",
+    "reactive": false
+  }
+}
